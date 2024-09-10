@@ -1,6 +1,7 @@
 #/bin/bash
 #update/install
-sudo pacman -Syu xorg bspwm sxhkd picom polybar alacritty rofi nitrogen ly zsh zsh-completions lxappearance noto-fonts ttf-jetbrains-mono ttf-font-awesome 
+sudo pacman -Syu unzip xorg bspwm sxhkd picom polybar alacritty rofi nitrogen ly zsh zsh-completions lxappearance noto-fonts ttf-jetbrains-mono ttf-font-awesome 
+unzip themes.zip
 #copy
 mkdir ~/.config
 sudo cp -r themes/Cloudy-Grey-Dark /usr/share/themes
