@@ -2,6 +2,12 @@
 #update/install
 sudo pacman -Syu unzip xorg bspwm sxhkd picom polybar alacritty rofi nitrogen ly zsh zsh-completions lxappearance noto-fonts ttf-jetbrains-mono ttf-font-awesome 
 unzip themes.zip
+#install rofi themes
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
+cd ../
 #copy
 mkdir ~/.config
 sudo cp -r themes/Cloudy-Grey-Dark /usr/share/themes
